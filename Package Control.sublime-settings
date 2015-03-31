@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"AngularJS Snippets",
+		"Better TypeScript",
+		"DocBlockr",
+		"FileOpTabContextMenu",
+		"GTKDarkThemeVariantSetter",
+		"JsonTree",
+		"JSX",
+		"LESS",
+		"LineEndings",
+		"Nette",
+		"Package Control",
+		"PHP Companion",
+		"Pretty JSON",
+		"ReactJS",
+		"SideBarEnhancements",
+		"Stylus",
+		"Theme - Coffee",
+		"Theme - Fox",
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"TypescriptCompletion",
+		"Visual Studio Bold Color Scheme",
+		"Visual Studio Dark",
+		"Xdebug Client"
+	]
+}

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$${1:mock}->expects(\$${2:this->once()})
+	->method('${3:method}')
+	${4:->with(${5:args})}${5:->will();}
+$6
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

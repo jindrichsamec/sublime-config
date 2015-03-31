@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+
+namespace ${1:Namespace};
+
+/**
+ * @author Jindrich Samec <samec@medio.cz>
+ * @group unit
+ */
+class ${2:Class}Test extends \\${3:Medio}\\Test\\UnitTestCase
+{
+
+	/**
+	 * @var \\$1\\$2
+	 */
+	private \$${2/(.*)/\u$2/};
+
+	/**
+	 * @see parent::setUp()
+	 */
+	protected function setUp()
+	{
+		parent::setUp();
+
+		\$this->${2/(.*)/\u$2/} = new $2();
+	}
+
+	/**
+	 * @see parent::tearDown()
+	 */
+	protected function tearDown()
+	{
+		parent::tearDown();
+	}
+
+
+	public function test${4:Method}()
+	{
+		\$${5:this->markTestIncomplete();}
+	}
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ut</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
